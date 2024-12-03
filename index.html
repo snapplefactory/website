@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+          background-color: black;
+          color: white;
+        }
+  
+        .navbar, footer {
+          background-color: #333; /* Darker shade for navbar and footer */
+        }
+  
+        .navbar-brand, .nav-link {
+          color: rgb(255, 255, 255) !important;
+        }
+  
+        .btn-primary {
+          background-color: #007bff;
+          border: none;
+        }
+  
+        .btn-primary a {
+          color: white;
+        }
+  
+        a {
+          color: #007bff;
+          text-decoration: none;
+        }
+  
+        a:hover {
+          text-decoration: underline;
+        }
+  
+        .card {
+          background-color: #444; /* Darker background for cards */
+          color: white;
+        }
+  
+        .card a {
+          color: #007bff;
+        }
+  
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+          filter: invert(1); /* Makes carousel controls visible on black background */
+        }
+      </style>
+  </head>
+  <body>
+   <!--Navbar-->
+   <nav class="navbar navbar-expand-lg" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/port-logo.png" alt="logo" width="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT ME</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main Container-->
+  
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="images/1.png" class="d-block w-100" style="max-height: 700px;" alt="welcome">
+          </div>
+          <div class="carousel-item">
+            <img src="images/2.png" class="d-block w-100" style="max-height: 700px;" alt="welcome2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.png" class="d-block w-100" style="max-height: 700px;" alt="welcome3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+      <br>
+      <br>
+      <br>
+      <br>
+<div id="about">
+    <h2 class="text-center">ABOUT ME</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="text-center w-100 bg-white text-black p-5 mb-5">
+        <p>Hi! I'm an aspiring Communication Designer in my second year at ISDI, passionate about crafting meaningful and impactful visual experiences. My work bridges creativity and strategy, blending storytelling, design, and innovation to create solutions that connect with people. Welcome to my portfolio—explore my journey and the projects that reflect my love for design!</p>
+        </div>
+    </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <h2 id="projects" class="fs-1 p-5 mb-5 mt-5 text-center">PROJECTS</h2>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="images/trufru.png" class="card-img-top" alt="Packaging">
+                <div class="card-body">
+                  <h5 class="card-title">Packaging Design</h5>
+                  <p class="card-text">Packaging design made by exploring typography by first creating a font inspired by scissors and then playing with it to make patterns and elements that adhere to packaging.</p>
+                  <a href="project1.html" class="btn btn-primary" style="color: white;">Read More</a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="images/minortrack.png" class="card-img-top" alt="Illustration">
+                <div class="card-body">
+                  <h5 class="card-title">Children's Storybook Illustration</h5>
+                  <p class="card-text"> A children's storybook illustration that adds a spin of imagination onto a beloved childhood memory, bringing whimsical characters to life.</p>
+                  <a href="project2.html" class="btn btn-primary" style="color: white;">Read More</a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="images/rococo.png" class="card-img-top" alt="Poster">
+                <div class="card-body">
+                  <h5 class="card-title">Poster Design</h5>
+                  <p class="card-text">A poster that takes you back to the pastel era of Rococo art, this poster was made by redesigning a Baskin Robbins ice cream tub as if it were indulged in the Rococo era.</p>
+                  <a href="project3.html" class="btn btn-primary" style="color: white;">Read More</a>
+                </div>
+              </div>
+            </div>
+
+             <!--Contact Me-->
+
+          <h2 id="contact" class="fs-1 p-5 mb-5 mt-5 text-center">CONTACT ME</h2>
+         
+          <div class="text-center w-100 bg-white text-black p-5 mb-5">
+            <p>Let’s Connect! I’d love to hear from you! Whether it’s a potential collaboration, feedback on my work, or just a friendly hello, feel free to drop me a message. Let’s create something amazing together!
+            </p>
+            <button type="button" class="btn btn-primary btn-lg"><a href="#" target="_blank" class="text-white text-decoration-none">Contact Me</a></button>
+            </div>
+          </div>
+          </div>
+          
+         
+
+            <footer class="bg-dark-subtle mt-5 p-5 text-white text-center"><p>&copy; Portfolio Website, 2024</p>
+            <p><a href="#" target="_blank" class="text-white">Email Me</a></p></footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
